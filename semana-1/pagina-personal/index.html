@@ -76,6 +76,49 @@
                     </tbody>
                 </table>
             </section>
+            <section>
+                <h2> Formulario </h2>
+                <form action="#">
+                    <input type="text" placeholder="Nombre" name="nombre" required />
+                    <hr />
+                    <input type="email" placeholder="Correo" name="email" required />
+                    <hr />
+                    <input type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
+                      required />
+                    <hr />
+                    <textarea placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                    <hr />
+
+                    <label for="proyecto">Disponibilidad de Horarios</label>
+                    
+                    <select name="horarios" id="horarios" required>
+                      <option value="s-diurnos">Lun-Mie-Vie 9:00-13:00 </option>
+                      <option value="s-nocturno">Mar-Jue 17:00-22:00</option>
+                      <option value="fs-diurno">Sab-Dom 11:00-16:00</option>
+                    </select>
+                    <hr />
+
+                    <h4>Plan</h4>
+                    <input type="radio" name="plan" id="Avanzado" value="Avanzado" required />
+                    <label for="Avanzado">Avanzado</label>
+                    <input type="radio" name="plan" id="Intermedio" value="Intermedio" required />
+                    <label for="Intermedio">Intermedio</label>
+                    <input type="radio" name="plan" id="Basico" value="Basico" required />
+                    <label for="Basico">Básico</label>
+                    <p>Por favor indica qué plan deseas</p>
+
+                    <hr />
+                    <h4>¿Cómo me contactaste?</h4>
+                    <input type="checkbox" name="upgrade" id="Redes sociales" value="Redes sociales" />
+                    <label for="css">Redes sociales</label><br>
+                    <input type="checkbox" name="upgrade" id="Tv" value="Tv" />
+                    <label for="javascript">Tv</label><br>
+                    <input type="checkbox" name="upgrade" id="Folleto" value="Folleto" />
+                    <label for="html">Folleto</label>
+                    <hr />
+                    <button>Enviar Solicitud</button>  
+                </form>
+            </section>
       </main>
       
 </body>
