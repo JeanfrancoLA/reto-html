@@ -2,28 +2,30 @@
     box-sizing: border-box;
 }
 html{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Goudy Old Style', sans-serif;
 }
 .lateral{
     background-color: #001574;
     bottom: 0;
     left: 0;
-    padding: lem;
+    padding: 1em;
     position: fixed;
     top: 0;
-    width: 300px;
+    width: 400px;
+    
 }
 
 /* Perfil */
 .perfil_circulo{
     border-radius: 50%;
     width: 100px;
+    height: 100px;
     overflow: hidden;
     margin: 0;
 }
 .perfil_foto{
     width: 100%;
-}
+}  
 .perfil_nombres{
     color: #fff;
     font-size: 20px;
@@ -64,4 +66,34 @@ html{
     font-size: 12px;
     text-transform: uppercase;
     padding: .5em;
+}
+
+
+/* Proyecto */
+.proyectos{
+    margin-left: 400px;
+    padding: 1em;
+    display: table;
+}
+.proyecto{
+    display: table-cell;
+    padding: 1em;
+    width: 50%;
+}
+.proyecto_imagen{
+    width: 100%;
+}
+.proyecto_titulo{
+    color: #29597c;
+    font-size: 18px;
+}
+.proyecto_descripcion{
+    color: #797d7f;
+}
+.li_semana{
+  font: bold 30px/1 arial;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #00aeff;
+  text-shadow: 0 5.5px 0 #41330a;
 }
