@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+body{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+#menu{    
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 3, 160, 0.562);
+    width: 100%;
+
+}
+.logo{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+    color: white;
+    font-size: 23px;
+}
+.ulnav{
+    position: absolute;
+    right: 0;
+}
+#menu-p{
+      display:flex;
+      justify-content: center;
+      position: sticky;
+      top: 0px;
+      background-color: white;
+      z-index: 20;
+}
+.art-p{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+  
+}
+.perfil{
+  justify-content: center;
+  padding: 2.5rem;
+  margin-left: 6%;
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.img-perfil{
+    padding: 25px;
+}
+
+.stabla{
+    width: 90%;
+    margin: 150px auto;
+    padding-top: 100px;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    text-align: left;
+    background-color: white;
+    padding-top: 30px;
+
+}
+th, td {
+    padding: 20px;
+    border: 0.5px solid black; 
+}
+ thead{
+     border-bottom: solid 5px red;
+    font-size: 20px;
+ }
+
+
+
+
+form.form-contact{
+    width: 100%;
+    padding: 60px 60px;
+    border: 1px solid red;
+}
+
+ h2{
+    font-size: 25px;
+	font-weight: 600;
+	color: #952F57;
+	margin-bottom: 30px;
+ }
+
+ form.form-contact .divform{
+    display: flex;
+    flex-direction: column;
+ }
+
+form.form-contact textarea{
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+}
+button{
+    width: 180px;
+	background: #0f0661 ;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+    align-self: flex-end;
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}

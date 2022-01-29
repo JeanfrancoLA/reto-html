@@ -8,32 +8,34 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <nav>
-          <a href="#">
-            <img src="./img/logo.jpg" alt="Logo Elliot Garamendi" width="100px" />
-          </a>
-          <ul>
-            <li><a href="#">Perfil</a></li>
-            <li><a href="#">Experiencia</a></li>
+    <header id="menu-p">
+        <nav id="menu"> 
+            <a href="#">
+                <figure class="logo">
+                    <img src="./img/logo.jpg" alt="Logo Elliot Garamendi" width="60px" />
+                </figure>
+            </a>
+          <ul class="ulnav">
+            <li><a href="#MIPERFIL">Perfil</a></li>
+            <li><a href="#EXPERIENCIA">Experiencia</a></li>
             <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#CONTACTO">Contacto</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
-          <article>
-            <div>
-            <h1>Jeanfranco Lazarinos, la mejor opción</h1>
-                <p>Estudiante del curso de Frontend y Backend. Apasionado con la programación y el diseño grafico. Con conocimientos en la composición de software y hardware. </p>
+          <article class="art-p" id="MIPERFIL">
+            <div class="perfil">
+            <h1>Jeanfranco Lazarinos, tú mejor opción</h1>
+                <p>Estudiante del curso de Frontend y Backend. Apasionado con la programación y el diseño grafico. Con conocimientos en la composición de software y hardware. Actualmente tengo 23 años y mis hobbies son la música y el dibujo. Tengo conocimiento de diseño grafico en software como Photoshop, Ilustrator, CorelDraw e Indesign. </p>
             </div>
-                <figure>
-                    <img src="img/yo.jpg" alt="Elliot Garamendi" width="250px" />
+                <figure class="img-perfil">
+                    <img src="img/yo.jpg" alt="JeanfrancoLA" width="350px" />
                 </figure>
           </article>
 
-          <section>
+          <section class="stabla" id="EXPERIENCIA">
             <h2>Experiencia</h2>
                 <table>
                     <thead>
@@ -74,53 +76,67 @@
                         </td>
                     <td>Marzo 2018, Marzo 2019</td>
                      </tr>
+                     <tr>
+                         <td>04</td>
+                         <td>Independiente</td>
+                         <td>Diseñador y Streamer</td>
+                         <td>
+                             <ul>
+                             <li>Realizar transmisiones virtuales</li>
+                             <li>Diseñador de escenarios virtuales (Chroma)</li>   
+                            </ul>
+                        </td>
+                         <td>2016-2021</td>
+                     </tr>
                     </tbody>
                 </table>
             </section>
-            <section>
+            <section class="sformulario" id="CONTACTO">
                 <h2> Formulario </h2>
-                <form action="#">
-                    <input type="text" placeholder="Nombre" name="nombre" required />
-                    <hr />
-                    <input type="email" placeholder="Correo" name="email" required />
-                    <hr />
-                    <input type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
-                      required />
-                    <hr />
-                    <textarea placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
-                    <hr />
 
-                    <label for="proyecto">Disponibilidad de Horarios</label>
+                
+                    <form action="#" class="form-contact">
+                        <div class="u_info">
+                        <input type="text" placeholder="Nombre" name="nombre" required />
+                        <hr />
+                        <input type="email" placeholder="Correo" name="email" required />
+                        <hr />
+                        <input type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
+                          required />
+                        <hr />
+                        <textarea placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                        <hr />
+                        <label for="proyecto">Disponibilidad de Horarios</label>
                     
-                    <select name="horarios" id="horarios" required>
-                      <option value="s-diurnos">Lun-Mie-Vie 9:00-13:00 </option>
-                      <option value="s-nocturno">Mar-Jue 17:00-22:00</option>
-                      <option value="fs-diurno">Sab-Dom 11:00-16:00</option>
-                    </select>
-                    <hr />
-
-                    <h4>Plan</h4>
-                    <input type="radio" name="plan" id="Avanzado" value="Avanzado" required />
-                    <label for="Avanzado">Avanzado</label>
-                    <input type="radio" name="plan" id="Intermedio" value="Intermedio" required />
-                    <label for="Intermedio">Intermedio</label>
-                    <input type="radio" name="plan" id="Basico" value="Basico" required />
-                    <label for="Basico">Básico</label>
-                    <p>Por favor indica qué plan deseas</p>
-
-                    <hr />
-                    <h4>¿Cómo me contactaste?</h4>
-                    <input type="checkbox" name="upgrade" id="Redes sociales" value="Redes sociales" />
-                    <label for="css">Redes sociales</label><br>
-                    <input type="checkbox" name="upgrade" id="Tv" value="Tv" />
-                    <label for="javascript">Tv</label><br>
-                    <input type="checkbox" name="upgrade" id="Folleto" value="Folleto" />
-                    <label for="html">Folleto</label>
-                    <hr />
-                    <button>Enviar Solicitud</button>  
-                </form>
+                        <select name="horarios" id="horarios" required>
+                          <option value="s-diurnos">Lun-Mie-Vie 9:00-13:00 </option>
+                          <option value="s-nocturno">Mar-Jue 17:00-22:00</option>
+                          <option value="fs-diurno">Sab-Dom 11:00-16:00</option>
+                        </select>
+                        <hr />
+                        <h4>Plan</h4>
+                        <input type="radio" name="plan" id="Avanzado" value="Avanzado" required />
+                        <label for="Avanzado">Avanzado</label>
+                        <input type="radio" name="plan" id="Intermedio" value="Intermedio" required />
+                        <label for="Intermedio">Intermedio</label>
+                        <input type="radio" name="plan" id="Basico" value="Basico" required />
+                        <label for="Basico">Básico</label>
+                        <p>Por favor indica qué plan deseas</p>
+                        <hr />
+                        <h4>¿Cómo me contactaste?</h4>
+                        <input type="checkbox" name="upgrade" id="Redes sociales" value="Redes sociales" />
+                        <label for="css">Redes sociales</label><br>
+                        <input type="checkbox" name="upgrade" id="Tv" value="Tv" />
+                        <label for="javascript">Tv</label><br>
+                        <input type="checkbox" name="upgrade" id="Folleto" value="Folleto" />
+                        <label for="html">Folleto</label>
+                        <hr />
+                        <button>Enviar Solicitud</button>
+                    </div>
+                    </form>
+                </div>
             </section>
       </main>
-      
+   
 </body>
 </html>
