@@ -1,13 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgba(251, 255, 255, 0.575);
     font-size: 20px;
 }
 
 body{
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -16,7 +15,7 @@ body{
     padding: 5px;
     border-bottom: 1px solid rgba(0, 3, 160, 0.562);
     width: 100%;
-
+    background-color: white;
 }
 .logo{
     border-radius: 50%;
@@ -28,30 +27,22 @@ body{
 
 #menu li{
     display: inline-block;
-    list-style: none;
     padding: 5px;
     font: bold 14px verdana, sans-serif;
-    color: white;
     font-size: 23px;
 }
 .ulnav{
     position: absolute;
     right: 0;
 }
-#menu-p{
-      display:flex;
-      justify-content: center;
+#menu-p{     
       position: sticky;
-      top: 0px;
-      background-color: white;
-      z-index: 20;
+      top: 0px;   
 }
 .art-p{
-    height: 50vh;
+    height: 65vh;
     display: flex;
-    justify-content: center;
     padding-top: 4rem;
-  
 }
 .perfil{
   justify-content: center;
@@ -82,29 +73,28 @@ table{
     text-align: left;
     background-color: white;
     padding-top: 30px;
-
 }
 th, td {
-    padding: 20px;
+    padding: 23px;
     border: 0.5px solid black; 
 }
- thead{
-     border-bottom: solid 5px red;
+thead{
     font-size: 20px;
+    font-style: oblique;
  }
 
- .sformulario{
+.sformulario{
     width: 90%;
     margin: 150px auto;
     padding-top: 100px;
  }
 
  form{
-    background-color: rgba(188, 245, 255, 0.432);
+    background-color: rgba(213, 249, 255, 0.432);
     margin: 0 auto;
     width: 42rem;
     padding: 45px;
-    border-radius: 4px;    
+    border-radius: 10px;    
 }
 
 .inp{

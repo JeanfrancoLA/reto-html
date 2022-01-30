@@ -27,8 +27,9 @@
       <main>
           <article class="art-p" id="MIPERFIL">
             <div class="perfil">
-            <h1>Jeanfranco Lazarinos, tú mejor opción</h1>
-                <p class="pdescrip">Estudiante del curso de Frontend y Backend. Apasionado con la programación y el diseño grafico. Con conocimientos en la composición de software y hardware. Actualmente tengo 23 años y mis hobbies son la música y el dibujo. Tengo conocimiento de diseño grafico en software como Photoshop, Ilustrator, CorelDraw e Indesign. </p>
+            <h1>Jeanfranco, tú mejor opción</h1>
+                <p class="pdescrip">Hola, te saluda Jeanfranco Abrahan Lazarinos Armendariz; actulmente estudiante del curso de Frontend y Backend. Apasionado con la programación y el diseño grafico. Con conocimientos en la composición de software y hardware. Actualmente tengo 23 años y mis hobbies son la música y el dibujo. También manejo distintos softwares relacionados al diseño gráfico como Photoshop, Ilustrator, CorelDraw e Indesign; y software relacionados a la música como ProTools, FlStudio, Kontakt, Kstool entre otros. <br> 
+                No te limites y comunicate conmigo para que resuelvas cualquier tipo de duda que se te presente. ツ </p>
             </div>
                 <figure class="img-perfil">
                     <img src="img/yo.jpg" alt="JeanfrancoLA" width="350px" />
@@ -96,19 +97,30 @@
 
                 
                     <form action="#" class="form-contact">
-                        <h3>Datos</h3>
+                       
+                        <h4>Datos</h4>
+
                         <div class="u_info">
-                        <input class="inp" type="text" placeholder="Nombre" name="nombre" required />
-                        <br />
-                        <input class="inp" type="email" placeholder="Correo" name="email" required />
-                        <br />
-                        <input class="inp" type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
-                          required />
-                        <br />
-                        <textarea class="inp" placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
-                        <br />
-                        <h3>Interés</h3>
-                        <label for="proyecto">Disponibilidad de Horarios</label>
+
+                            <label for="name">Nombre*</label><br/>
+                            <input class="inp" type="text" placeholder="Ingrese su nombre" id="name" name="nombre" required />
+                        
+                        
+                            <label for="email">Correo*</label><br/>
+                            <input class="inp" type="email" id="email" placeholder="Ingrese su Correo" name="email" required />
+                        
+                            <label for="phone">Celular*</label><br/>
+                            <input class="inp" type="number" id="phone" placeholder="Ingrese su celular" name="celular" min="900000000" max="999999999"
+                            required/>
+                        
+                            <label for="message">Dejanos tú consulta*</label><br/>
+                            <textarea class="inp" id="message" placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                            <hr/>
+                        
+
+                        <h4>Interés</h4>
+                        <br>
+                        <label for="horarios">Disponibilidad de Horarios</label>
                         &emsp;
                         <select name="horarios" id="horarios" required>
                           <option value="s-diurnos">Lun-Mie-Vie 9:00-13:00 </option>
@@ -116,16 +128,16 @@
                           <option value="fs-diurno">Sab-Dom 11:00-16:00</option>
                         </select>
                         <hr />
-                        <h4>Plan</h4>
+
+                        <h4>Plan</h4><br/>
                         <input type="radio" name="plan" id="Avanzado" value="Avanzado" required />
                         <label for="Avanzado">Avanzado</label>
                         <input type="radio" name="plan" id="Intermedio" value="Intermedio" required />
                         <label for="Intermedio">Intermedio</label>
                         <input type="radio" name="plan" id="Basico" value="Basico" required />
                         <label for="Basico">Básico</label>
-                        <p>Por favor indica qué plan deseas</p>
-                        <br />
-                        <h4>¿Cómo me contactaste?</h4>
+                        <hr />
+                        <h4>¿Cómo me contactaste?</h4><br/>
                         <input type="checkbox" name="upgrade" id="Redes sociales" value="Redes sociales" />
                         <label for="css">Redes sociales</label><br>
                         <input type="checkbox" name="upgrade" id="Tv" value="Tv" />
@@ -137,8 +149,7 @@
                         <button>Enviar Solicitud</button>
                         </div>
                     </div>
-                    </form>
-                </div>
+                </form>
             </section>
       </main>
    
