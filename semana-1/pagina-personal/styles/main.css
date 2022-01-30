@@ -1,7 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgba(255, 255, 255, 0.363);
+    background-color: rgba(251, 255, 255, 0.575);
+    font-size: 20px;
 }
 
 body{
@@ -59,10 +60,14 @@ body{
 }
 h1{
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 45px;
+}
+p{
+    padding-left: 15px;
+    font-size: 18px;
 }
 .img-perfil{
-    padding: 25px;
+    padding: 50px;
 }
 
 .stabla{
@@ -88,31 +93,29 @@ th, td {
     font-size: 20px;
  }
 
+ .sformulario{
+    width: 90%;
+    margin: 150px auto;
+    padding-top: 100px;
+ }
 
-
-
-form.form-contact{
-    width: 100%;
-    padding: 60px 60px;
-    border: 1px solid red;
+ form{
+    background-color: rgba(188, 245, 255, 0.432);
+    margin: 0 auto;
+    width: 42rem;
+    padding: 45px;
+    border-radius: 4px;    
 }
 
- h2{
-    font-size: 25px;
-	font-weight: 600;
-	color: #952F57;
-	margin-bottom: 30px;
- }
-
- form.form-contact .divform{
-    display: flex;
-    flex-direction: column;
- }
-
-form.form-contact textarea{
-    width: 100%;
-    padding: 8px 0px 5px;
-    margin-bottom: 20px;
+.inp{
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 20px;
+    font-size: 15px;
+    width: 40rem;
+}
+input:focus, textarea:focus{
+    border-color: rgb(5, 63, 189);
 }
 button{
     width: 180px;
@@ -120,10 +123,14 @@ button{
 	padding: 10px;
 	border: none;
 	border-radius: 25px;
-    align-self: flex-end;
     color: #fff;
 	font-family: 'Open sans';
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
 }
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+ 

@@ -28,7 +28,7 @@
           <article class="art-p" id="MIPERFIL">
             <div class="perfil">
             <h1>Jeanfranco Lazarinos, tú mejor opción</h1>
-                <p>Estudiante del curso de Frontend y Backend. Apasionado con la programación y el diseño grafico. Con conocimientos en la composición de software y hardware. Actualmente tengo 23 años y mis hobbies son la música y el dibujo. Tengo conocimiento de diseño grafico en software como Photoshop, Ilustrator, CorelDraw e Indesign. </p>
+                <p class="pdescrip">Estudiante del curso de Frontend y Backend. Apasionado con la programación y el diseño grafico. Con conocimientos en la composición de software y hardware. Actualmente tengo 23 años y mis hobbies son la música y el dibujo. Tengo conocimiento de diseño grafico en software como Photoshop, Ilustrator, CorelDraw e Indesign. </p>
             </div>
                 <figure class="img-perfil">
                     <img src="img/yo.jpg" alt="JeanfrancoLA" width="350px" />
@@ -96,18 +96,20 @@
 
                 
                     <form action="#" class="form-contact">
+                        <h3>Datos</h3>
                         <div class="u_info">
-                        <input type="text" placeholder="Nombre" name="nombre" required />
-                        <hr />
-                        <input type="email" placeholder="Correo" name="email" required />
-                        <hr />
-                        <input type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
+                        <input class="inp" type="text" placeholder="Nombre" name="nombre" required />
+                        <br />
+                        <input class="inp" type="email" placeholder="Correo" name="email" required />
+                        <br />
+                        <input class="inp" type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
                           required />
-                        <hr />
-                        <textarea placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
-                        <hr />
+                        <br />
+                        <textarea class="inp" placeholder="Escríbeme un mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                        <br />
+                        <h3>Interés</h3>
                         <label for="proyecto">Disponibilidad de Horarios</label>
-                    
+                        &emsp;
                         <select name="horarios" id="horarios" required>
                           <option value="s-diurnos">Lun-Mie-Vie 9:00-13:00 </option>
                           <option value="s-nocturno">Mar-Jue 17:00-22:00</option>
@@ -122,7 +124,7 @@
                         <input type="radio" name="plan" id="Basico" value="Basico" required />
                         <label for="Basico">Básico</label>
                         <p>Por favor indica qué plan deseas</p>
-                        <hr />
+                        <br />
                         <h4>¿Cómo me contactaste?</h4>
                         <input type="checkbox" name="upgrade" id="Redes sociales" value="Redes sociales" />
                         <label for="css">Redes sociales</label><br>
@@ -130,8 +132,10 @@
                         <label for="javascript">Tv</label><br>
                         <input type="checkbox" name="upgrade" id="Folleto" value="Folleto" />
                         <label for="html">Folleto</label>
-                        <hr />
+                        <br />
+                        <div class="btn">
                         <button>Enviar Solicitud</button>
+                        </div>
                     </div>
                     </form>
                 </div>
